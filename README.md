@@ -1,2 +1,2 @@
 # scribd-clone
-Created with CodeSandbox
+Front End Clone of Scribd using React
