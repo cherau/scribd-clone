@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.Background {
+  background-image: url("https://s-f.scribdassets.com/webpack/assets/images/hero_banner/950_en@1x.b831dd70.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.title {
+  font-family: Source Sans Pro, serif;
+  margin-top: 0px;
+  padding-top: 100px;
+  color: #fff;
+  font-size: 50px;
+  margin-left: 50px;
+}
+.content {
+  margin-top: 0px;
+  justify-content: flex-start;
+  width: 400px;
+  height: 500px;
+  color: #fff;
+}
+.Button {
+  color: #1e7b85;
+  padding: 10px;
+  width: 60%;
+  border-radius: 5px;
+  border-color: #1e7b85;
+}
+.back {
+  background-color: #1e7b85;
+  margin-bottom: 0px;
+}
+.signin {
+  margin-left: 950px;
+  background-color: #1e7b85;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  border-color: #fff;
+}
+.heading {
+  margin-top: 40px;
+  font-family: Source Sans Pro, serif;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  height: 150px;
+  flex: 1;
+}
+.icon {
+  margin-top: 40px;
+  margin-left: 20px;
+}
+.heading {
+  justify-content: center;
+}
+.books {
+  font-family: Source Sans Pro, serif;
+  background-color: #5a1d41;
+  height: 200px;
+  align: left;
+  padding: 0;
+  margin: 0;
+  padding-top: 50px;
+  color: #fff;
+}
+.content2 {
+  background-color: #e4f4f5;
+  height: 200px;
+  align: left;
+  padding: 0;
+  margin: 0;
+  padding-top: 50px;
+}
+.quote {
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 600;
+  margin: 0;
+  max-width: 588 px;
+  padding-bottom: 16 px;
+  text-align: center;
+  z-index: 2;
+}
+
+.contentfooter {
+  display: flex;
+  justify-content: flex-start;
+  height: 300px;
+  padding-top: 50px;
+}
+.about {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.social {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.support {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.legal {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+@media screen and (max-width: 950px) {
+  .Background {
+    background-image: url("https://s-f.scribdassets.com/webpack/assets/images/hero_banner/450_en@2x.e81c9ec5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1000px;
+    height: 1000px;
+  }
+
+  .content {
+    margin-left: 250px;
+    margin-top: 0px;
+    font-size: 90px;
+    width: 40px;
+    height: 500px;
+    color: #fff;
+    justify-content: center;
+  }
+  .content Button {
+    color: #1e7b85;
+    padding: 10px;
+    font-size: 35px;
+    width: 1500%;
+    height: 100px;
+    border-radius: 5px;
+    border-color: #1e7b85;
+  }
+
+  .back {
+    background-color: #1e7b85;
+    margin-bottom: 0px;
+    width: 1000px;
+    height: 70px;
+    justify-content: left;
+    margin-left: 0px;
+  }
+  .signin {
+    margin-left: 900px;
+    background-color: #1e7b85;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    border-color: #fff;
+  }
+  .heading {
+    margin-top: 40px;
+    font-size: 50px;
+    justify-content: center;
+    font-family: Source Sans Pro, serif;
+  }
+  .icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 150px;
+    flex: 1;
+    width: 1000px;
+    font-size: 50px;
+  }
+  .outer {
+    height: 400px;
+    width: 1000px;
+  }
+  .icon {
+    margin-top: 40px;
+    margin-left: 20px;
+  }
+  .heading {
+    justify-content: center;
+  }
+  .books {
+    font-family: Source Sans Pro, serif;
+    background-color: #5a1d41;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 50px;
+    width: 1000px;
+    align: left;
+    padding: 0;
+    margin: 0;
+    padding-top: 50px;
+    color: #fff;
+  }
+  .content2 {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 50px;
+    background-color: #e4f4f5;
+    height: 200px;
+    width: 1000px;
+    align: left;
+    padding: 0;
+    margin: 0;
+    padding-top: 50px;
+    justify-content: center;
+  }
+  .quote {
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 600;
+    margin: 0;
+    max-width: 588 px;
+    padding-bottom: 16 px;
+    text-align: center;
+    z-index: 2;
+  }
+
+  .contentfooter {
+    display: flex;
+    justify-content: flex-start;
+    height: 300px;
+    width: 1000px;
+    font-size: 30px;
+    padding-top: 50px;
+  }
+  .about {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  .social {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  .support {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  .legal {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
